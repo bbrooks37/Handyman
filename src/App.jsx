@@ -29,13 +29,13 @@ function HomePage() {
             <Link to="/services/moving">Learn More</Link> {/* Update link */}
           </div>
           <div className="service-item">
-            <h3>Irrigation</h3>
-            <p>remove and replace nozzle heads, Lay down sod, Install drip irrigation systems.</p>
+            <h3>Mulching</h3>
+            <p>lay down mulch by the sq foot, Lay down sod or turf by the sq foot.</p>
             <Link to="/services/irrigation">Learn More</Link> {/* Update link */}
           </div>
           <div className="service-item">
             <h3>Handy Services</h3>
-            <p>Change out light bulbs, Clean cowebs, Clean windows, Spray insect repellent, etc...</p>
+            <p>Change out light bulbs, Clean cowebs, Clean windows, Pick out weeds, etc...</p>
             <Link to="/services/handy-services">Learn More</Link> {/* Update link */}
           </div>
           {/* Add more services as needed */}
@@ -64,9 +64,9 @@ function ServicePage() {
       description: 'Small moves, trash or junk removal, furniture rearrange, etc...',
       pricing: 'Contact for quote',
     },
-    irrigation: {
-      title: 'Irrigation',
-      description: 'Remove and replace nozzle heads, Lay down sod, Install drip irrigation systems.',
+    mulching: {
+      title: 'Mulching',
+      description: 'lay down mulch by the sq foot, Lay down sod or turf by the sq foot.',
       pricing: 'Contact for quote',
     },
     'handy-services': { // Update key
